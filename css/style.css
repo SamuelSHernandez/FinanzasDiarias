@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: black;
+}
+
+li{
+    margin-right: 5rem;
+    display: inline;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+ul li {
+    display: inline;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+.logo{
+    margin-left: 0em;
+    margin-right: 5em;
+    background-image: url('../img/FD-icon-yellow.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding: 1.25em;
+    padding-left: 3.25em;
+    padding-right: 0em;
+}
+
