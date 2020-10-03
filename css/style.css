@@ -21,7 +21,7 @@ li {
 }
 
 a {
-    color: gray;
+    color: lightgray;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ ul li {
 }
 
 a:hover {
-    color: white;
+    color: #fcb913;
 }
 
 .logo {
@@ -53,4 +53,8 @@ a:hover {
 
 .social-media{
     float: right;
+}
+
+.dropdown-content{
+    overflow: hidden;
 }
