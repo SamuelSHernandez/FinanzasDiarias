@@ -1,23 +1,70 @@
-# FinanzasDiarias
+# Getting Started with Create React App
 
-## Pagina web de Finanzas Diarias
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Requerimientos de página web FINANZAS DIARIAS
+## Available Scripts
 
-1. Logo y leyenda de la marca en inicio, con accesos directos al inicio sin importar en qué pestaña este el lector.
+In the project directory, you can run:
 
-2. Ligar los botones a sus redes sociales correspondientes, FB e IG.
+### `npm start`
 
-3. Widget en inicio, en la parte inferior de la página con información del mercado (trading view).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-4. Botón pop-up en todas las secciones para que el lector introduzca su correo, se suscriba y le lleguen notificaciones cuando hagamos una nueva publicación.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-5. En sección TEMAS, botón para mensaje directo a Facebook, Instagram o correo electrónico de la pagina.
-En cada artículo publicado, entre párrafos colocar accesos directos a otros artículos como: También te puede interesar: Desigualdad en México. También al final de cada artículo con un slideshow de los artículos existentes.
+### `npm test`
 
-6. En la sección de HERRAMIENTAS, un slideshow de los artículos en vez de la imagen de puntos de FD.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-7. En la sección SOBRE NOSOTROS dejar el espacio para poner nuestra misión, visión, valores y redacción del por qué de la página.
-Revisar que toda la página quede optimizada para móvil.
+### `npm run build`
 
-8. Activar los correos electrónicos correspondientes a soporte, contacto y los correspondientes de cada socio.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

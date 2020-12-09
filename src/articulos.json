@@ -1,0 +1,340 @@
+{
+    "Articulos": [
+        {
+            "id": "1",
+            "titulo": "¿Qué es una recesión económica y por qué todo mundo habla de que se acerca una?",
+            "autor": "L.A.F.Ismael Rojas",
+            "articulo": "Una recesión económica no es mas que una etapa del ciclo económico durante la cual la economía \n se contrae por diversos factores, es decir, la actividad económica (transacciones, pagos, importaciones, exportaciones) se reduce por algún motivo, tal como lo estamos viviendo en estos momentos. Hoy, factores externos como el pánico generado por el Covid-19, la guerra de precios y producción de petróleo entre Arabia Saudita y Rusia, además de problemas anteriores que acarreamos hasta hoy como la guerra comercial entre el presidente de EUA, Donald Trump (sí, de Donald Trump) y China, las renegociaciones del tratado comercial entre México, EUA y Canadá, ahora renombrado como T-MEC, el sonadísimo Brexit (la salida del Reino Unido de la unión europea), entre otros factores, han propiciado que la actividad económica se venga contrayendo paulatinamente en todo el mundo. ¿Cómo afecta esto a México y por qué sería el inicio de una crisis económica si nada de esto pasa aquí?. Las exportaciones de China se han visto considerablemente disminuidas desde enero de este año, cortesía del Covid-19. Esto provoca que muchas empresas en México y el mundo se queden sin abastecimiento de piezas o insumos fundamentales para la fabricación de sus productos. Un claro ejemplo es el de empresas como Audi, Honda, y Ford, que recientemente anunciaron la paralización temporal de sus plantas en Puebla, Querétaro y Guanajuato, por la escasez de insumos causado por el cierre de fronteras en varios países, y las dificultades logísticas que esto implica. Esto es alarmante ya que el sector automotriz en México es muy importante; actualmente representa el 3% del PIB nacional. Otro factor alarmante es la depreciación que el peso ha sufrido debido a la contingencia y el desplome de los mercados financieros que han provocado una mayor demanda de dólares, una percepción de mayor riesgo al invertir en el país, así como los recortes a las tasas de interés y los pronósticos de crecimiento negativos para nuestro país. Hoy EUA es el país con más casos positivos de Covid-19, lo que implicará que pronto se convierta en el epicentro de la enfermedad, provocando un posible paro total de su economía en el futuro, con las afectaciones que esto implicaría. México es el principal socio comercial de Estados Unidos, por lo que no hay que ser un experto para saber que si a EUA le va mal, a México le puede ir peor. Ejemplos como este se irán repitiendo conforme el virus continúe expandiéndose por el mundo y pronto la economía se vea muy deteriorada por la paralización de las actividades primarias, secundarias y terciarias, además del agravamiento de los demás factores ya mencionados. JP Morgan, una de las instituciones financieras más antiguas e importantes del mundo, anunció que ajustó el pronóstico de la tasa de crecimiento de la economía en México, pasando de -1.8% a -7%, una cifra ALARMANTE. Estos recortes son una tendencia que ya nos tienen acostumbrados desde el inicio del mandato presidencial de Andrés Manuel López Obrador en 2018. Es inminente una crisis, el gobierno de nuestro país ha tomado ya medidas sanitarias y económicas para tratar de sobrellevar esta contingencia (dignas para analizar en otra publicación), sin embargo esto no garantiza una solución absoluta a largo plazo, la economía no podrá soportar por mucho tiempo esta situación, por lo que es cierto, una recesión se acerca.",
+            "keyword": [
+                "recesión económica",
+                "crisis"
+            ]
+        },
+        {
+            "id": "2",
+            "titulo": "¿Qué tan bien administras tu dinero?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                "Administracion",
+                "presupuestos",
+                "consumo responsable"
+            ]
+        },
+        {
+            "id": "3",
+            "titulo": "¿Qué es la liquidez y por qué es importante en todos los ámbitos financieros?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "4",
+            "titulo": "¿Qué es el buró de crédito?, ¿cómo sé si estoy en \"la lista\"?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "5",
+            "titulo": "La desigualdad en México y el Covid-19, una muy mala combinación ",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "6",
+            "titulo": "¿La crisis está a la vuelta de la esquina?, sobre quedarme en casa, el plan de reactivación económica, comercio informal, SAT, desempleo e inseguridad.",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "7",
+            "titulo": "¿Un peso hoy vale más que un peso mañana? ",
+            "autor": "Ing. César Hernández",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "8",
+            "titulo": "AMLO: créditos y más créditos para todos, pero ¿y qué más?",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "9",
+            "titulo": "Hoy el petróleo mexicano se vende en -$2.37 dólares por barril, ¿eso que significa?",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "10",
+            "titulo": "¿BONOS = ENDEUDAMIENTO?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "11",
+            "titulo": "Cuidado con el efectivo y el COVID-19",
+            "autor": " L.C.P.F. Edgar Flores",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "12",
+            "titulo": "¿Y cómo va la economía en México en el día 73 de la \"cuarentena\"?",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "13",
+            "titulo": "¿Qué son las afores?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "14",
+            "titulo": "¿Por qué debe importarme cada vez que BANXICO sube o baja la tasa de interés?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "15",
+            "titulo": "El presupuesto",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "16",
+            "titulo": "¿Por qué llamamos \"peso\" a nuestra moneda?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "17",
+            "titulo": "Evasión y Elusión de Impuestos, la delgada línea entre lo legal y lo ilegal",
+            "autor": "L.C.P.F. Edgar Flores",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "18",
+            "titulo": "Presupuesto",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "19",
+            "titulo": "Nos separan 82 días hasta el inicio de las elecciones presidenciales del país más poderoso del mundo.",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "20",
+            "titulo": "Razones Financieras ",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "21",
+            "titulo": "Jordan Belfort, el verdadero lobo de Wall Street",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "22",
+            "titulo": "Crédito, ¿pedir o no pedir prestado?",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "23",
+            "titulo": "¿Qué es una acción?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "24",
+            "titulo": "Mejores esquemas fiscales para emprender",
+            "autor": "L.C.P.F. Edgar Flores",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "25",
+            "titulo": "El padre del CAPM (Capital Asset Pricing Model)",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "26",
+            "titulo": "¿Por qué imprimir más billetes no es una solución económica?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "27",
+            "titulo": "Diferencia entre IVA e ISR",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "28",
+            "titulo": "Glosario Financiero",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "29",
+            "titulo": "Presupuesto Nacional",
+            "autor": "L.A.F. Martín Acevedo",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "30",
+            "titulo": "¿Qué es la beta en finanzas?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "31",
+            "titulo": "Todo lo que debes saber sobre la aversión al riesgo financiero",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "32",
+            "titulo": "¿Qué es una burbuja financiera?",
+            "autor": "L.A.F. Ismael Rojas",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "33",
+            "titulo": "3 Errores financieros de Emprendedores",
+            "autor": "L.C.P.F Edgar Flores",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "34",
+            "titulo": "¿Por qué se creó Finanzas Diarias?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "35",
+            "titulo": "La UIF (Unidad de Inteligencia Financiera)",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "36",
+            "titulo": "¿Qué es un fideicomiso? ",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        },
+        {
+            "id": "37",
+            "titulo": "¿Qué es un bono y para qué sirve?",
+            "autor": "Finanzas Diarias",
+            "articulo": "",
+            "keyword": [
+                ""
+            ]
+        }
+    ]
+}
