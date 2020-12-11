@@ -21,7 +21,7 @@ class Navigation extends Component {
                     </button>
 
                     <a className='navbar-brand no-wrap' href="/" >
-                        <img className="homeIcon" alt="Home" src={homeLogo} />
+                        <img className="homeIcon" alt="Home" src={homeLogo}/>
                     </a>
 
 

@@ -23,24 +23,58 @@ export default class SobreNosotros extends Component {
 
                 </div>
 
-                <div className="Equipo">
-
-
+                <div className="Team">
+                    <Team />
                 </div>
             </>
         )
     }
 }
 
+
+export function Team() {
+    return (
+        <div className="d-flex justify-content-center">
+            <div class="card-column text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Edgar Flores</h5>
+                    <p class="card-text text-center">Co-fundador</p>
+                </div>
+            </div>
+
+            <div class="card-column text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Ismael Rojas</h5>
+                    <p class="card-text text-center">Co-fundador</p>
+                </div>
+            </div>
+
+            <div class="card-column text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Martin Acevedo</h5>
+                    <p class="card-text text-center">Co-fundador</p>
+                </div>
+            </div>
+            <div class="card-column text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Samuel S. Hernandez</h5>
+                    <p class="card-text text-center">Co-fundador</p>
+                </div>
+            </div>
+
+        
+        </div>
+    )
+}
 /*
                     <ul>
 
                         <li className="member"> Ismael Rojas
-                        
+
                         <ul>
                             <li>Co-fundador</li>
                         </ul>
-                        
+
                         </li>
 
                         <li className="member"> Martín Acevedo</li>

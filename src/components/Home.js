@@ -13,7 +13,6 @@ export default class Home extends Component {
                 <Header />
                 <main>
                     <Widget />
-                    <Promo />
                     <Featured />
                 </main>
             </>
@@ -52,7 +51,7 @@ export function Featured() {
         <div className="card-deck mb-3 mx-auto" id="cardDeck">
 
             <a href="/">
-                <div className="card-column card-shadow col-md-3">
+                <div className="card-column col-md-3">
 
                     <img src={Cripto} alt="Criptomoneda" className="card-img-top" />
 
@@ -66,25 +65,23 @@ export function Featured() {
             </a>
 
             <a href="/">
-                <div className="card-column card-shadow col-md-3">
+                <div className="card-column  col-md-3">
                     <img src={Ahorro} alt="Ahorro" className="card-img-top" />
                     <div className="card-body text-center">
                         <h4 className="card-title">¿Cada año haces el mismo propósito de ahorrar y nunca lo cumples? </h4>
-                        <p className="card-text">Cuando hablamos de crear un plan de ahorro, siempre comenzamos con las mejores intenciones. Queremos ahorrar y
-                    tener dinero listo para asumir cualquier compromiso con facilidad, pero la falta de...</p>
+                        <p className="card-text">Cuando hablamos de crear un plan de ahorro, siempre comenzamos con las mejores intenciones...</p>
                     </div>
                     <small className="text-muted">Acutalizado hace 2 horas</small>
 
                 </div>
             </a>
             <a href="/">
-                <div className="card-column card-shadow col-md-3">
+                <div className="card-column col-md-3">
                     <img src={Evasion} alt="Evasion" className="card-img-top" />
                     <div className="card-body text-center">
                         <h4 className="card-title">El Outsourcing (Sub-contratación laboral)</h4>
                         <p className="card-text">A lo largo de este sexenio se ha comentado el tema del Outsourcing
-                        y se ha hecho incapié en lo agresiva que puede ser esta figura para los trabajadores mexicanos,
-                    para el fisco federal y para el IMSS...</p>
+                        y se ha hecho incapié en lo agresiva que puede ser esta figura para los trabajadores mexicanos...</p>
                     </div>
                     <small className="text-muted">Acutalizado hace 2 horas</small>
                 </div>

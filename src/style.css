@@ -1,7 +1,6 @@
 /* color tema --> #f3ba44; */
 
 /* GENERAL */
-
 * {
     box-sizing: border-box;
 }
@@ -13,6 +12,16 @@ body {
 }
 
 /* NAVIGATION BAR */
+nav::before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
 
 .navbar {
     height: 50px;
@@ -60,10 +69,10 @@ body {
 .nav a:hover {
     color: black;
     font-weight: 500;
-    -moz-transition: all 0.1s ease-in;
-    -o-transition: all 0.1s ease-in;
-    -webkit-transition: all 0.1s ease-in;
-    transition: all 0.1s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .fa-bars {
@@ -91,10 +100,6 @@ body {
 }
 
 /* HOME */
-
-
-
-
 .parallax-section {
     background-attachment: scroll;
 }
@@ -114,7 +119,6 @@ body {
 }
 
 /* header square */
-
 .square {
     width: 550px;
     height: 600px;
@@ -196,21 +200,20 @@ body {
 }
 
 /* Featured Cards*/
-
 .card-column {
     margin-right: 1em;
     margin-bottom: 1em;
     background: #fff;
-    max-width: 450px;
+    max-width: 400px;
     border-radius: 20px;
 }
 
 .card-column:hover {
     box-shadow: 0 10px 15px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(32, 33, 36, 0.2);
-    -moz-transition: all 0.1s ease-in;
-    -o-transition: all 0.1s ease-in;
-    -webkit-transition: all 0.1s ease-in;
-    transition: all 0.1s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .card-img-top {
@@ -218,20 +221,12 @@ body {
     margin-top: 1em;
 }
 
-.card-shadow {
-    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
-}
-
 .card-body {
-    height: 250px;
+    height: 210px;
 }
 
 .card-text {
     text-align: justify;
-}
-
-.card small {
-    margin: 1em;
 }
 
 .card-deck {
@@ -248,11 +243,13 @@ body {
 }
 
 /* FOOTER */
-.footerImage{
+.footerImage {
     width: 300px;
     margin-bottom: 3em;
 }
+
 .site-footer {
+    background-attachment: scroll;
     background-color: black;
     padding: 45px 0 20px;
     font-size: 15px;
@@ -416,8 +413,6 @@ body {
     transition: all 0.1s ease-in;
 }
 
-
-
 @media (max-width:767px) {
     .social-icons li.title {
         display: block;
@@ -426,15 +421,16 @@ body {
     }
 }
 
-.fa-heart{
+.fa-heart {
     color: #F05D5E;
 }
 
-.fa-envelope{
+.fa-envelope {
+    margin-top: 0.5em;
     color: #f3ba44;
 }
 
-.input-group button:hover{
+.input-group button:hover {
     font-size: 18px;
     background-color: grey;
     -moz-transition: all 0.1s ease-in;
@@ -444,13 +440,12 @@ body {
 }
 
 /* SOBRE NOSOTROS */
-
 .sobreNosotros {
     text-align: center;
 }
 
 .sobreNosotros h1 {
-    margin-top: 4em;
+    margin-top: 2em;
     font-weight: 600;
     font-size: 28px;
 }
@@ -463,35 +458,28 @@ body {
     margin-right: 20em;
 }
 
-.Equipo {
-    display: table;
-    margin: auto;
-    margin-top: 5em;
+.Team {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
-.Equipo ul {
-    display: inline;
-    text-align: center;
-    list-style-type: none;
-}
-
-.Equipo li {
-    display: inline-block;
-}
-
-.member {
+.Team h5 {
     font-weight: 600;
     color: #f3ba44;
-    margin-right: 5em;
 }
 
-.role {
+.Team p {
     font-weight: 300;
     color: darkgray;
 }
 
-/* ARTICULOS*/
+.Team .card-column {
+    width: 16em;
+    height: 6em;
+    display: inline-block;
+}
 
+/* ARTICULOS*/
 .carousel {
     position: relative;
     float: right;
@@ -508,13 +496,11 @@ body {
 }
 
 /* HERRAMIENTAS */
-
 .Herramientas {
     margin: 10em;
 }
 
 /* CONTACTANOS */
-
 .contact {
     margin: auto;
     margin-top: 5em;
@@ -532,11 +518,11 @@ body {
 }
 
 /* Contact Form */
-
 .contactForm {
     border-radius: 10px;
     background-color: #e6e6e6;
     padding: 20px;
+    margin-bottom: 5em;
 }
 
 input[type=text], select, textarea {
