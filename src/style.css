@@ -1,6 +1,7 @@
 /* color tema --> #f3ba44; */
 
 /* GENERAL */
+
 * {
     box-sizing: border-box;
 }
@@ -11,7 +12,26 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.light-mode{
+    background-color: white;
+    color: darkgray;
+}
+
+.dark-mode{
+    background-color: #1A1919;
+    color: lightgray;
+}
+
+.dark-mode nav{
+    background-color:#1b2938;
+}
+
+.navigation .current{
+    background-color: #f3ba44;
+}
+
 /* NAVIGATION BAR */
+
 nav::before {
     content: "";
     position: fixed;
@@ -100,6 +120,7 @@ nav::before {
 }
 
 /* HOME */
+
 .parallax-section {
     background-attachment: scroll;
 }
@@ -119,6 +140,7 @@ nav::before {
 }
 
 /* header square */
+
 .square {
     width: 550px;
     height: 600px;
@@ -199,7 +221,70 @@ nav::before {
     }
 }
 
+.promoImg{
+    
+    height: auto;
+    width: 40%; 
+}
+
+.promoText{
+    margin-top: 1em; 
+    width: 60%; 
+    font-size: 18px;
+    margin-left: 26em;
+    color: grey;
+
+}
+
+.featured{
+    margin: 2em;
+}
+.featured h1{
+    color: #f3ba44;
+    font-weight: 600;
+    margin-left: 4em;
+}
+
+/*Articulo de la Semana*/
+.articulo-de-la-semana h1{
+    color: #f3ba44;
+    font-weight: 600;
+    margin-top: 4em;
+    margin-left: 4em;
+}
+.articulo-de-la-semana h2{
+    color: black;
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 1em;
+
+
+}
+.articulo-de-la-semana h3{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 2em;
+    margin-left: 12em;
+  
+}
+
+.articulo-de-la-semana p{
+    color: gray;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 7em;
+    margin-left: 7em;
+    margin-right: 7em;
+   
+}
+
+
+
 /* Featured Cards*/
+
 .card-column {
     margin-right: 1em;
     margin-bottom: 1em;
@@ -243,6 +328,7 @@ nav::before {
 }
 
 /* FOOTER */
+
 .footerImage {
     width: 300px;
     margin-bottom: 3em;
@@ -440,6 +526,7 @@ nav::before {
 }
 
 /* SOBRE NOSOTROS */
+
 .sobreNosotros {
     text-align: center;
 }
@@ -473,34 +560,47 @@ nav::before {
     color: darkgray;
 }
 
+
 .Team .card-column {
-    width: 16em;
-    height: 6em;
+    width: 250px;
+    height: 350px;
     display: inline-block;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+.Team .card-img-top{
+    width: 90%;
+    height: auto;
 }
 
 /* ARTICULOS*/
-.carousel {
-    position: relative;
-    float: right;
-    margin: 3em;
-    margin-right: 10em;
-    height: 550px;
-    width: 50%;
+
+.Articulos h1 {
+    margin: 2em;
+    font-weight: 600;
+    color: #f3ba44;
 }
 
-.list-group {
-    position: relative;
-    width: 400px;
-    margin: 5em;
+.pagination {
+    margin: 4em;
+}
+
+.Articulo h2{
+    margin: 2em;
+}
+.Articulo p{
+    margin-left: 5em;
+    margin-right:5em;
 }
 
 /* HERRAMIENTAS */
+
 .Herramientas {
     margin: 10em;
 }
 
 /* CONTACTANOS */
+
 .contact {
     margin: auto;
     margin-top: 5em;
@@ -518,6 +618,7 @@ nav::before {
 }
 
 /* Contact Form */
+
 .contactForm {
     border-radius: 10px;
     background-color: #e6e6e6;

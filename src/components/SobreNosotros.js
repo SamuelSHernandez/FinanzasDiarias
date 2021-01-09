@@ -1,5 +1,6 @@
 import { Component } from 'react';
 
+import pepe from '../img/placeHolder.jpg';
 
 
 
@@ -36,6 +37,7 @@ export function Team() {
     return (
         <div className="d-flex justify-content-center">
             <div class="card-column text-center">
+            <img  className="card-img-top" src={pepe} alt="test img" id="edgar-flores"></img>
                 <div class="card-body">
                     <h5 class="card-title">Edgar Flores</h5>
                     <p class="card-text text-center">Co-fundador</p>
@@ -43,6 +45,7 @@ export function Team() {
             </div>
 
             <div class="card-column text-center">
+            <img  className="card-img-top" src={pepe} alt="test img" id="ismael-rojas"></img>
                 <div class="card-body">
                     <h5 class="card-title">Ismael Rojas</h5>
                     <p class="card-text text-center">Co-fundador</p>
@@ -50,12 +53,17 @@ export function Team() {
             </div>
 
             <div class="card-column text-center">
+            <img  className="card-img-top" src={pepe} alt="test img" id="martin-acevedo"></img>
                 <div class="card-body">
                     <h5 class="card-title">Martin Acevedo</h5>
                     <p class="card-text text-center">Co-fundador</p>
                 </div>
             </div>
-            <div class="card-column text-center">
+            
+            <div class="card-column text-center " id="samuel-s-hernandez">
+                
+                    <img  className="card-img-top" src={pepe} alt="test img"></img>
+            
                 <div class="card-body">
                     <h5 class="card-title">Samuel S. Hernandez</h5>
                     <p class="card-text text-center">Co-fundador</p>
