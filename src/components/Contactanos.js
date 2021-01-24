@@ -3,15 +3,15 @@ export default class Contactanos extends Component {
     render() {
         return (
             <div className="container">
-                <infoPage/>
-                <contactForm />
+                <InfoPage/>
+                <ContactForm />
             </div>
 
         )
     }
 }
 
-export function infoPage() {
+export function InfoPage() {
     return (
         /* TODO: Add social media buttons */
         <div className="contact">
@@ -32,7 +32,7 @@ export function infoPage() {
     )
 }
 
-export function contactForm() {
+export function ContactForm() {
     return (
         <div className="contactForm">
             <form >

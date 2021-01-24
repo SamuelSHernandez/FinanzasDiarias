@@ -5,13 +5,13 @@ export default class Herramientas extends Component {
     render() {
         return (
             <div className="herramientas">
-                <herramientasDeck />
+                <HerramientasDeck />
             </div>
         )
     }
 }
 
-export function herramientasDeck() {
+export function HerramientasDeck() {
     return (
         <div className="card-deck">
             <div class="card-column col-md-3">
