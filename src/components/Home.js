@@ -33,7 +33,7 @@ export function Header() {
 
                     </div>
                     <div className="square">
-                            <h1>Finanzas Diarias</h1>
+                        <h1>Finanzas Diarias</h1>
                         <h2>Artículo de la semana</h2>
 
                         <h3>¿Tu también has pensado invertir en BITCOIN?</h3>
@@ -109,15 +109,15 @@ export function Widget() {
 
     return (
 
-        <div>
-            <TradingViewEmbed
-                widgetType={widgetType.TICKER_TAPE}
-                widgetConfig={{
-                    colorTheme: "light",
-                    autosize: true
-                }}
-            />
-        </div>
+
+        <TradingViewEmbed
+            widgetType={widgetType.TICKER_TAPE}
+            widgetConfig={{
+                colorTheme: "light",
+                autosize: true
+            }}
+        />
+
     )
 }
 
@@ -156,57 +156,17 @@ export function ArticuloDeLaSemana() {
             <h2>Qué es una Criptomoneda?</h2>
             <h3 className="autor-de-articulo">Por: <a href="finanzas-diarias/SobreNosotros#samuel-s-hernandez">Samuel S. Hernandez</a></h3>
 
-            <p>¿Tu también has pensado en invertir en BITCOIN?<br /><br/>
+            <p>¿Tu también has pensado en invertir en BITCOIN?<br /><br />
             Seguramente más de alguna vez has escuchado sobre el BITCOIN o ETHEREUM, probablemente las criptomonedas más conocidas, aunque existen muchísimas más.
             Una criptomoneda, o criptoactivo, es un tipo de moneda digital. Es un medio digital de cambio, similar a una tarjeta de débito. Sin embargo la diferencia radica en que las transacciones se realizan anónimamente.
-            No existe en el mundo real como un peso o un dólar.<br /><br/>
+            No existe en el mundo real como un peso o un dólar.<br /><br />
             Las criptomonedas existen en el mundo de las computadoras exclusivamente. Al ser monedas digitales, están protegidas por criptográfica y tecnologías de blockchain, así que son imposibles falsificar o de gastar más de una vez.
             También, tienen como característica que son de control descentralizado, es decir, nadie controla el flujo de la moneda. Esto facilita a los usuarios a transferirse dinero directamente, sin necesidad de bancos o gobiernos que regulen las transacciones.
             Muchos expertos estiman que las criptomonedas tienen un potencial increíble para ser un disruptor de la industria financiera.
-            Sin embargo, invertir en este tipo de monedas es extremadamente riesgoso.<br /><br/>
+            Sin embargo, invertir en este tipo de monedas es extremadamente riesgoso.<br /><br />
             Debido a que no es una moneda regulada por nadie, y no hay nada que la respalde, su valor es muy volátil, y se prestan para estafas tipo "pump and dump" donde un grupo de personas inflan el valor de la moneda, después retiran su dinero, y mucha gente pierde muchísimo debido a esto.
-            Te recomendamos ser muy cuidadoso y asesorarte bien, si es que inviertes en criptomonedas.<br /><br/></p>
+            Te recomendamos ser muy cuidadoso y asesorarte bien, si es que inviertes en criptomonedas.<br /><br /></p>
 
         </div>
     );
 }
-
-
-
-/*<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
-  "symbols": [
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500"
-    },
-    {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "Nasdaq 100"
-    },
-    {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR/USD"
-    },
-    {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "BTC/USD"
-    },
-    {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "ETH/USD"
-    }
-  ],
-  "showSymbolLogo": true,
-  "colorTheme": "light",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "en"
-}
-  </script>
-</div>
-<!-- TradingView Widget END --> */

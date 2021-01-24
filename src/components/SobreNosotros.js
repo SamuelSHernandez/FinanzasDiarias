@@ -74,20 +74,4 @@ export function Team() {
         </div>
     )
 }
-/*
-                    <ul>
 
-                        <li className="member"> Ismael Rojas
-
-                        <ul>
-                            <li>Co-fundador</li>
-                        </ul>
-
-                        </li>
-
-                        <li className="member"> Martín Acevedo</li>
-                        <li className="member"> Edgar Flores</li>
-                        <li className="member"> Samuel S. Hernandez</li>
-
-                    </ul>
-*/
