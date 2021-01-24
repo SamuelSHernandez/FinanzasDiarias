@@ -2,7 +2,11 @@ import { Component } from 'react';
 export default class Contactanos extends Component {
     render() {
         return (
-            <infoPage />
+            <div className="container">
+                <infoPage/>
+                <contactForm />
+            </div>
+
         )
     }
 }
@@ -12,8 +16,18 @@ export function infoPage() {
         /* TODO: Add social media buttons */
         <div className="contact">
 
-            <h1>Escríbenos en <a href="https://www.facebook.com/finanzasdiariasmx/" target="_blank" rel="noreferrer">Facebook</a></h1>
+            <h1>Escríbenos en <a href="https://www.facebook.com/finanzasdiariasmx/" target="_blank"
+                rel="noreferrer">Facebook</a></h1>
+
             <h2>Si tienes alguna duda, por favor visíta nuestras redes sociales o escribe directamente aquí abajo.</h2>
+
+            <ul class="social-icons">
+                <li><a className="facebook" href="https://www.facebook.com/finanzasdiariasmx/" target="_blank"
+                    rel="noreferrer"><i class="fa fa-facebook"></i></a></li>
+
+                <li><a className="instagram" href="https://www.instagram.com/finanzasdiariasmx/" target="_blank"
+                    rel="noreferrer" ><i class="fa fa-instagram"></i></a></li>
+            </ul>
         </div> /* contact */
     )
 }
